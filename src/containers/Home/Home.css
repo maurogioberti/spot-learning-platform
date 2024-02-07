@@ -1,0 +1,17 @@
+.home {
+    border-radius: .3rem;
+}
+
+.secondary-color {
+    color: #808080;
+}
+
+video {
+    width: 90vw;
+}
+
+@media (min-width: 768px) {
+    video {
+        width: 65vw;
+    }
+}

@@ -1,48 +1,60 @@
-# Spot Learning Platform
+# SPOT - Skills Pathway Online Training
 
-## Overview
-Spot Learning Platform is an innovative online course platform dedicated to IT education. Built with React, it leverages best practices to offer a user-friendly design and an efficient learning experience. Dive into a wide array of IT courses designed to empower your tech skills and advance your career.
+SPOT stands at the forefront of online IT education, committed to delivering high-quality and accessible learning experiences for everyone. Leveraging Bootstrap 5, our platform offers a responsive, mobile-first design that adapts to any device, ensuring a seamless and intuitive user interface.
 
 ## Features
-- **Interactive Courses**: Engage with courses through interactive lessons and practical exercises.
-- **Responsive Design**: Access your courses anytime, anywhere, on any device.
+
+- **Responsive Design**: Utilizing Bootstrap 5 for a mobile-first, responsive layout that provides a consistent experience across all devices.
+- **Dynamic Content**: Showcasing course information through simulated backend interactions, demonstrating dynamic content retrieval without real backend connectivity.
+- **React Best Practices**: Adhering to common best practices in React development for scalable, efficient, and maintainable code.
+- **Comprehensive Testing**: Implementing extensive testing strategies to ensure reliability and stability, with a focus on extensive code coverage.
 
 ## Getting Started
 
-### Prerequisites
-- Node.js (v14 or newer)
-- npm or Yarn
+To get started with SPOT, follow these simple steps:
 
-### Installation
 1. Clone the repository:
-```bash
-git clone https://github.com/maurolgioberti/spot-learning-platform.git
-```
 
-2. Navigate to the project directory:
 ```bash
-cd spot-learning-platform
+git clone https://github.com/yourusername/spot-platform.git
 ```
-
-3. Install dependencies:
+# Install dependencies
+To install the dependencies of your project you can type.
 ```bash
 npm install
 ```
+## Available Scripts
 
-or if you're using Yarn,
-```bash
-yarn install
-```
+In the project directory, you can run:
 
-### Running the Application
-To start the application in development mode, run:
 ```bash
 npm start
 ```
 
-or if you're using Yarn,
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
 ```bash
-yarn start
+npm test
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+```bash
+npm run build
+```
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Contributing
+We welcome contributions to SPOT! If you have suggestions for improvements or encounter any issues, please feel free to open an issue or submit a pull request.
