@@ -1,4 +1,73 @@
-.course-card {
-    width: 100%;
-    margin-bottom: 1rem;
+.img-overlay {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .course-img {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .course-img img {
+        width: 100%;
+    }
+
+    .card-text {
+        height: 6vh;
+        overflow: hidden;
+    }
+
+    .card-title {
+        overflow: hidden;
+    }
+
+    .img-overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        transition: all 0.3s;
+        background-color: rgba(0, 0, 0, 0.6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-overlay a {
+        color: white;
+        font-size: 40px;
+        opacity: 0;
+        transition: all 0.3s;
+    }
+
+    .img-overlay .fa-save {
+        position: absolute;
+        top: 50%;
+        right: 38%;
+        transform: translate(-50%, -50%);
+    }
+
+    .img-overlay .fa-eye {
+        position: absolute;
+        top: 50%;
+        left: 38%;
+        transform: translate(-50%, -50%);
+    }
+
+    .course-img:hover .img-overlay {
+        opacity: 1;
+    }
+
+    .course-img:hover .img-overlay a {
+        opacity: 1;
+    }
+
+    .card-text {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        margin-bottom: 5px;
+    }
 }

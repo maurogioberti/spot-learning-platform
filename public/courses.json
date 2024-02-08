@@ -1,0 +1,94 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "React for Beginners",
+      "category": "Web Development",
+      "subtitle": "Learn React from scratch with this beginner's course.",
+      "description": "This comprehensive course covers all the basics of React development, including components, state management, and hooks. Perfect for those new to frontend development or looking to add React to their skillset.",
+      "url": "https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "image": "https://storage.googleapis.com/gtv-videos-bucket/sample/images/BigBuckBunny.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Exploring Creative Design",
+      "category": "Design",
+      "subtitle": "Unleash your creativity with modern design techniques.",
+      "description": "Dive into the fundamentals of design, from color theory and typography to user experience. Perfect for aspiring designers or developers looking to enhance their UI/UX skills.",
+      "url": "https://storage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+      "image": "https://storage.googleapis.com/gtv-videos-bucket/sample/images/ElephantsDream.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Marketing Strategies for the Digital Age",
+      "category": "Marketing",
+      "subtitle": "Discover effective digital marketing strategies.",
+      "description": "Learn how to engage your audience and boost your brand with the latest digital marketing techniques, including SEO, social media, and content marketing.",
+      "url": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+      "image": "https://storage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerBlazes.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Advanced JavaScript Techniques",
+      "category": "Programming Languages",
+      "subtitle": "Elevate your JavaScript skills to the next level.",
+      "description": "This course covers advanced concepts in JavaScript, such as closures, prototypes, and ES6+ features. Ideal for developers looking to deepen their understanding of JavaScript.",
+      "url": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+      "image": "https://storage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerEscapes.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Introduction to Web Accessibility",
+      "category": "Web Development",
+      "subtitle": "Making the web accessible to everyone.",
+      "description": "Learn the importance of web accessibility and how to implement accessible web designs that comply with WCAG guidelines. Essential for web developers and designers.",
+      "url": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+      "image": "https://storage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerFun.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Building Mobile Apps with React Native",
+      "category": "Mobile Development",
+      "subtitle": "Create powerful mobile apps using React Native.",
+      "description": "Explore how to use React Native to develop cross-platform mobile apps. This course covers setup, components, navigation, and state management in React Native.",
+      "url": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+      "image": "https://storage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerJoyrides.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Cloud Computing Fundamentals",
+      "category": "Cloud Computing",
+      "subtitle": "Dive into the world of cloud computing.",
+      "description": "Understand the basics of cloud computing and how to leverage cloud services from providers like AWS, Google Cloud, and Azure for your projects.",
+      "url": "https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+      "image": "https://storage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerMeltdowns.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Mastering Data Visualization",
+      "category": "Data Science",
+      "subtitle": "Bring your data to life with compelling visualizations.",
+      "description": "Learn how to visualize data using tools like D3.js and Tableau. This course covers the principles of data visualization, chart types, and visualization tools.",
+      "url": "https://storage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
+      "image": "https://storage.googleapis.com/gtv-videos-bucket/sample/images/SubaruOutbackOnStreetAndDirt.jpg"
+    },
+    {
+      "id": 9,
+      "title": "The Art of Storytelling",
+      "category": "Content Creation",
+      "subtitle": "Craft and narrate engaging stories.",
+      "description": "Discover the power of storytelling in content creation. Learn storytelling techniques to captivate your audience, whether in writing, video production, or public speaking.",
+      "url": "https://storage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+      "image": "https://storage.googleapis.com/gtv-videos-bucket/sample/images/TearsOfSteel.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Cybersecurity Essentials",
+      "category": "Cybersecurity",
+      "subtitle": "Protecting information in the digital age.",
+      "description": "Gain an understanding of cybersecurity principles, threats, and best practices. This course is designed for beginners to learn how to secure personal and corporate information.",
+      "url": "https://storage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+      "image": "https://storage.googleapis.com/gtv-videos-bucket/sample/images/Sintel.jpg"
+    }
+  ]
+}
