@@ -7,7 +7,7 @@ const Home = () => {
     const [lastCourses, setCourses] = useState([]);
 
     useEffect(() => {
-        fetch('./courses.json')
+        fetch('./assets/data/courses.json')
             .then(response => response.json())
             .then(data => {
                 const lastThreeCourses = data.courses.length > 3 ? data.courses.slice(-3) : data.courses;
@@ -24,7 +24,7 @@ const Home = () => {
                     </p>
                     <div className="d-flex justify-content-center">
                         <video controls autoPlay muted className="object-fit-contain">
-                            <source src={`${process.env.PUBLIC_URL}/video.mp4`} type="video/mp4" />
+                            <source src={`${process.env.PUBLIC_URL}/assets/videos/intro.mp4`} type="video/mp4" />
                             Your browser does not support videos.
                         </video>
                     </div>

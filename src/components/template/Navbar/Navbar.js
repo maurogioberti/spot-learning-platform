@@ -5,7 +5,7 @@ import './Navbar.css';
 const Navbar = () => (
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <Link className="navbar-brand ms-3" to="/">
-      <img src={`${process.env.PUBLIC_URL}/logo192.png`} alt="SPOT Logo" height="30" />
+      <img src={`${process.env.PUBLIC_URL}/assets/images/logo/logo192.png`} alt="SPOT Logo" height="30" />
     </Link>
     <div className="collapse navbar-collapse">
       <ul className="navbar-nav me-auto">

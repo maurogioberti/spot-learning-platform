@@ -3,7 +3,7 @@ import './CoursePreviewCard.css';
 
 const CoursePreviewCard = ({ id, title, subtitle, image }) => (
     <div className="card course-card">
-        <img src={image || `${process.env.PUBLIC_URL}/placeholder300.png`} className="card-img-top" alt="Course" />
+        <img src={image || `${process.env.PUBLIC_URL}/assets/images/courses/placeholder300.png`} className="card-img-top" alt="Course" />
         <div className="card-body">
             <h5 className="card-title">{title}</h5>
             <p className="card-text">{subtitle}</p>
