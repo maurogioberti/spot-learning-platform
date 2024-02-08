@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './../../../containers/Home/Home';
 import About from './../../../containers/About/About';
 import Courses from './../../../containers/Courses/Courses';
+import Course from './../../../containers/Course/Course';
 import Contact from './../../../containers/Contact/Contact';
 
 const Main = () => (
@@ -12,6 +13,7 @@ const Main = () => (
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/courses" element={<Courses />} />
+        <Route path="/course/:courseId" element={<Course />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </section>

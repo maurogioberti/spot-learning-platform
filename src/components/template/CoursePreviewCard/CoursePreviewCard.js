@@ -1,5 +1,6 @@
 import React from 'react';
 import './CoursePreviewCard.css';
+import { Link } from 'react-router-dom';
 
 const CoursePreviewCard = ({ id, title, subtitle, image }) => (
     <div className="card course-card">
@@ -8,7 +9,9 @@ const CoursePreviewCard = ({ id, title, subtitle, image }) => (
             <h5 className="card-title">{title}</h5>
             <p className="card-text">{subtitle}</p>
             <div className="text-center">
-                <a href={`#view${id}`} className="btn btn-primary">Start Course</a>
+                <Link className="navbar-brand ms-3" to={`/course/${id}`}>
+                    <button className="btn btn-primary">Start Course</button>
+                </Link>
             </div>
         </div>
     </div>
