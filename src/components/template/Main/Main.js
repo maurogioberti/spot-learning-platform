@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './../../../containers/Home/Home';
 import About from './../../../containers/About/About';
 import Courses from './../../../containers/Courses/Courses';
+import Contact from './../../../containers/Contact/Contact';
 
 const Main = () => (
   <main className="flex-fill">
@@ -11,7 +12,7 @@ const Main = () => (
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/courses" element={<Courses />} />
-        {/* <Route path="/contact" element={<Contact />} /> */}
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </section>
   </main>
