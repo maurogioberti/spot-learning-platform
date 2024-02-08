@@ -7,7 +7,7 @@ const Home = () => {
     const [lastCourses, setCourses] = useState([]);
 
     useEffect(() => {
-        fetch('./assets/data/courses.json')
+        fetch(`${process.env.PUBLIC_URL}/assets/data/courses.json`)
             .then(response => response.json())
             .then(data => {
                 const lastThreeCourses = data.courses.length > 3 ? data.courses.slice(-3) : data.courses;

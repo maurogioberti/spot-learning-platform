@@ -6,7 +6,7 @@ import Main from './components/template/Main/Main';
 import Footer from './components/template/Footer/Footer';
 const App = () => (
   <div className="app d-flex flex-column vh-100">
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Header />
       <Main />
       <Footer />
