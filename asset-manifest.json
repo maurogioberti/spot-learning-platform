@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/spot-learning-platform/static/css/main.3d983697.css",
-    "main.js": "/spot-learning-platform/static/js/main.10add5ed.js",
+    "main.js": "/spot-learning-platform/static/js/main.30396401.js",
     "static/js/592.ad7786e3.chunk.js": "/spot-learning-platform/static/js/592.ad7786e3.chunk.js",
     "index.html": "/spot-learning-platform/index.html",
     "main.3d983697.css.map": "/spot-learning-platform/static/css/main.3d983697.css.map",
-    "main.10add5ed.js.map": "/spot-learning-platform/static/js/main.10add5ed.js.map",
+    "main.30396401.js.map": "/spot-learning-platform/static/js/main.30396401.js.map",
     "592.ad7786e3.chunk.js.map": "/spot-learning-platform/static/js/592.ad7786e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d983697.css",
-    "static/js/main.10add5ed.js"
+    "static/js/main.30396401.js"
   ]
 }
