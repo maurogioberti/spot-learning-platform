@@ -7,7 +7,7 @@ const CourseCard = ({ id, title, subtitle, image, url }) => (
             <div className="course-img">
                 <img className="card-img-top" src={image || `${process.env.PUBLIC_URL}/assets/images/courses/placeholder300.png`} alt={title} />
                 <div className="img-overlay">
-                    <a href={url} className="download-link" download><i className="fas fa-save"></i></a>
+                    <a href={url} target="_blank" className="download-link" download><i className="fas fa-save"></i></a>
                     <Link className="navbar-brand ms-3" to={`/course/${id}`}>
                         <i className="far fa-eye"></i>
                     </Link>
