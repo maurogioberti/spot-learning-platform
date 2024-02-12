@@ -26,7 +26,7 @@ const CourseTheatre = ({ title, subtitle, url }) => {
           </video>
         </div>
         <div className="text-center mt-3">
-          <a href={url} className="btn btn-primary" download>Download Video</a>
+          <a href={url} target="_blank" className="btn btn-primary" download>Download Video</a>
         </div>
       </div>
     </div>
